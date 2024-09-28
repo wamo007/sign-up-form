@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="background-img">
+        <div class="container-logo">
+            <img src="images/logo.png" alt="My Logo" class="logo">
+            <div class="company-name">ShamO</div>
+        </div>
+        <div class="source">Photo by <a href = "https://github.com/wamo007" alt = "link to my page on github">me</a>. 
+            <a href = "https://www.holland.com/global/tourism/discover-the-netherlands/visit-the-cities/utrecht" alt = "Some info on Utrecht">Utrecht, Netherlands</a>
+        </div>
+    </div>
+
+    <div class="right-side">
+        <div class="description">
+            <div>
+                You are going to enjoy <em>every</em> second on this website. 
+                Fascinating nature pictures... Flora and Fauna miracles... You can find it all here!
+            </div>
+            <div>Sign up <em>now</em> to fulfill your desires!</div>
+            <div>Come on! You <em>need</em> this in your life!</div>
+        </div>
+        
+        <form class="sign-up" action="" method="post">
+            <div class="questions">
+                <div>Just Do It!</div>
+                
+                <div class="name">
+                    <label for="first-name">First Name</label>
+                    <input type="text" id="first-name" name="first-name" placeholder="Aiden" required>
+                </div>
+                <div class="surname">
+                    <label for="last-name">Last Name</label>
+                    <input type="text" id="last-name" name="last-name" placeholder="Pearce" required>
+                </div>
+                <div class="mail">
+                    <label for="mail">E-Mail</label>
+                    <input type="email" id="mail" name="email" placeholder="watch.d0gs@ct.os" required>
+                </div>
+                <div class="phone">
+                    <label for="phone">Phone Number</label>
+                    <input type="number" id="phone" name="number" minlength="9" maxlength="20">
+                </div>
+                <div class="password">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="password">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="password" id="confirm-password" name="password" required>
+                </div>
+                <fieldset>
+                    <legend>Do you wanna receive car pics too?</legend>
+                    <input type="radio" id="r1" name="car-news">
+                    <label for="r1">Yes</label>
+                    
+                    <input type="radio" id="r2" name="car-news" checked>
+                    <label for="r2">No</label>
+                </fieldset>
+            </div>
+
+            <button type="submit">Create Account</button>
+        </form>
+
+        <div class="signed-in">Already have an account? <a href="" alt="nothing to log in to">Log in</a></div>
+    </div>
+</body>
+</html>
